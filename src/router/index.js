@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Login from '../views/Login'
 import Home from '../views/Home'
 import Main from '../views/Main'
+import Manage from '../views/Manage'
 Vue.use(VueRouter)
 
 const originalPush = VueRouter.prototype.push
@@ -20,7 +21,8 @@ const routes = [
     children: [
       { path: '/main', component: Main }
     ]
-  }
+  },
+  { path: '/manage', component: Manage }
 
 ]
 

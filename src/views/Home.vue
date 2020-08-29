@@ -27,9 +27,7 @@ export default {
   name: 'Home',
   data () {
     return {
-      date: new Date(),
-      activeIndex: '1',
-      activeIndex2: '1'
+      date: new Date()
     }
   },
   filters: {
@@ -61,9 +59,6 @@ export default {
     }
   },
   methods: {
-    handleSelect (key, keyPath) {
-      console.log(key, keyPath)
-    }
   }
 }
 </script>

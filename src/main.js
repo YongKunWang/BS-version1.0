@@ -11,7 +11,7 @@ import 'lib-flexible/flexible'
 // 引入全局样式表
 import './assets/css/global.css'
 // 引入icon图标
-import './assets/fonts/iconfont.css'
+import './assets/fonts/icon/iconfont.css'
 // 引入自定义组件
 import myComponent from './components'
 // 引入粒子效果

@@ -12,7 +12,7 @@
           <el-form-item prop="username">
             <el-input
               v-model="loginForm.username"
-              prefix-icon="iconfont icon-users"
+              prefix-icon="iconfont bsuser"
               placeholder="请输入用户名"
               clearable
             >
@@ -21,8 +21,8 @@
           <el-form-item prop="password">
             <el-input
               v-model="loginForm.password"
-              prefix-icon="iconfont icon-3702mima"
-              placeholder="请输入用户名"
+              prefix-icon="iconfont bspassword"
+              placeholder="请输入密码"
               clearable
             ></el-input>
           </el-form-item>

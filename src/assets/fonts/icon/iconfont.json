@@ -1,0 +1,58 @@
+{
+  "id": "2034953",
+  "name": "vue-bs",
+  "font_family": "iconfont",
+  "css_prefix_text": "bs",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "380331",
+      "name": "dot",
+      "font_class": "dot",
+      "unicode": "e63f",
+      "unicode_decimal": 58943
+    },
+    {
+      "icon_id": "5428576",
+      "name": "user",
+      "font_class": "user",
+      "unicode": "e72c",
+      "unicode_decimal": 59180
+    },
+    {
+      "icon_id": "10561878",
+      "name": "Dots",
+      "font_class": "Dots",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    },
+    {
+      "icon_id": "15631425",
+      "name": "监控",
+      "font_class": "jiankong",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "15872074",
+      "name": "历史数据",
+      "font_class": "lishishuju1",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "16298485",
+      "name": "用户中心",
+      "font_class": "yonghuzhongxin",
+      "unicode": "e7c2",
+      "unicode_decimal": 59330
+    },
+    {
+      "icon_id": "6664187",
+      "name": "password",
+      "font_class": "password",
+      "unicode": "e620",
+      "unicode_decimal": 58912
+    }
+  ]
+}

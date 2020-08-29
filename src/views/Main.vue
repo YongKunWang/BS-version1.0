@@ -5,7 +5,7 @@
       <!-- 第一行 -->
       <div class="panel monitorOne">
         <h2>西门-监控摄像头1</h2>
-        <img class="warningFlag" src="../assets/images/mainBg/warningIcon.png" alt="">
+        <i class="dotFlag normalIcon iconfont bsdot"></i>
         <div class="monitorShow">
           <img class="clip" src="../assets/images/mainBg/4851.jpg" alt="">
         </div>
@@ -14,7 +14,7 @@
       <!-- 第二行 -->
       <div class="panel monitorOne">
         <h2>西门-监控摄像头1</h2>
-        <img class="warningFlag" src="../assets/images/mainBg/normalIcon.png" alt="">
+        <i class="dotFlag normalIcon iconfont bsdot"></i>
         <div class="monitorShow">
           <img class="clip" src="../assets/images/mainBg/4851.jpg" alt="">
         </div>
@@ -23,7 +23,7 @@
       <!-- 第三行 -->
       <div class="panel monitorOne">
         <h2>西门-监控摄像头1</h2>
-        <img class="warningFlag" src="../assets/images/mainBg/normalIcon.png" alt="">
+        <i class="dotFlag normalIcon iconfont bsdot"></i>
         <div class="monitorShow">
           <img class="clip" src="../assets/images/mainBg/4851.jpg" alt="">
         </div>
@@ -76,7 +76,7 @@
       <!-- 第一行 -->
       <div class="panel monitorOne">
         <h2>西门-监控摄像头1</h2>
-        <img class="warningFlag" src="../assets/images/mainBg/normalIcon.png" alt="">
+        <i class="dotFlag warnIcon iconfont bsdot"></i>
         <div class="monitorShow">
           <img class="clip" src="../assets/images/mainBg/4851.jpg" alt="">
         </div>
@@ -85,7 +85,7 @@
       <!-- 第二行 -->
       <div class="panel monitorOne">
         <h2>西门-监控摄像头1</h2>
-        <img class="warningFlag" src="../assets/images/mainBg/normalIcon.png" alt="">
+        <i class="dotFlag warnIcon iconfont bsdot"></i>
         <div class="monitorShow">
           <img class="clip" src="../assets/images/mainBg/4851.jpg" alt="">
         </div>
@@ -94,7 +94,7 @@
       <!-- 第三行 -->
       <div class="panel monitorOne">
         <h2>西门-监控摄像头1</h2>
-        <img class="warningFlag" src="../assets/images/mainBg/normalIcon.png" alt="">
+        <i class="dotFlag warnIcon iconfont bsdot"></i>
         <div class="monitorShow">
           <img class="clip" src="../assets/images/mainBg/4851.jpg" alt="">
         </div>
@@ -219,12 +219,17 @@ export default {
       clip: rect(78px 357px 274px 0px);
     }
   }
-  .monitorOne {
-    .warningFlag {
-      position: absolute;
-      top: -3px;
-      right: 5px;
+  .dotFlag {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    font-size: 25px;
   }
+  .warnIcon {
+    color: red;
+  }
+  .normalIcon {
+    color: green;
   }
   .no {
     width: 100%;
