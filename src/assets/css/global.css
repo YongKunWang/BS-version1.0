@@ -1,0 +1,22 @@
+/*全局样式表*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+html,
+body,
+#app {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url(../images/homeBg/bg.jpg);
+    /* background-color: #081832; */
+    /* 一定要是这个 要不出现超出屏幕就不滚动的情况了 */
+    overflow: hidden;
+}
+li {
+    list-style: none;
+}
+
